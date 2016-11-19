@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>SVG Text</title>
+        <style>
+            #main-svg{
+                border: 1px solid black;
+                background: darkgray;
+                width: 500px;
+                height: 500px;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            .fancy{
+                fill: indianred;
+                stroke: #00ff00;
+                font-size: 34px;
+            }
+        </style>
+    </head>
+    <body>
+        <svg id="main-svg">
+            <text x="0" y="0">Welcome SVG</text>
+            <text x="0" y="100">Welcome SVG</text>
+            <text x="200" y="100" fill="red">Welcome SVG</text>
+            <text x="100" y="12" fill="yellow">Welcome SVG</text>
+            <text x="100" y="300" font-family="verdana" font-size="50">Welcome SVG</text>
+            <text x="100" y="400" class="fancy">Welcome SVG</text>
+        </svg>
+    </body>
+</html>
